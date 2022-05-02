@@ -26,7 +26,7 @@
         />
       </div>
     </q-toolbar>
-    <div class="header-content">
+    <section class="header-content">
       <q-img
         src="images/illustration-intro.png"
         width="500px"
@@ -42,8 +42,8 @@
           style="background: linear-gradient(90deg, rgba(101,226,217,1) 1%, rgba(96,220,216,1) 28%, rgba(60,170,206,1) 96%, rgba(51,158,204,1) 100%); width: 200px;"
         >Get Started</q-btn>
       </div>
-    </div>
-    <div class="row options">
+    </section>
+    <section class="row options">
       <div
         class="col-md-6"
       >
@@ -80,7 +80,20 @@
           Whether you're sharing holidays photos or work <br/>  documents, Fylo has you covered allowing for all file <br/> types to be securely stored and shared.
         </p>
       </div>
-    </div>
+    </section>
+    <section class="third-section">
+      <img src="images/illustration-stay-productive.png" alt="">
+      <div>
+        <h2>Stay productive, <br/> wherever you are</h2>
+        <p>
+          Never let location be an issue when accessing your files. Fylo has you <br/>
+          covered for all of your file needs.
+        </p>
+        <p>
+          Securely share files and folders with friends, family and colleagues for live <br/> collaboration. No email attachments required.
+        </p>
+      </div>
+    </section>
   </q-layout>
 </template>
 <style lang="sass">
@@ -121,4 +134,18 @@
   text-align: center
   display: flex
   color: white
+
+.third-section
+  display: flex
+  align-content: center
+  justify-content: center
+  align-items: center
+  img
+    width: 500px
+  h2
+    color: white
+    font-weight: 700
+    font-size: 2.5rem
+  p
+    color: white
 </style>  
